@@ -1,0 +1,17 @@
+<div>
+    <p>
+        <span>哈哈，欢迎来到home主页！</span>
+        <span>用户的ID是:{{homeId}}；</span>
+    </p>
+
+    <a [routerLink]="['./authoritymanage']">权限管理</a>
+    <a [routerLink]="['./education-plan']">教学规划</a>
+    <a [routerLink]="['./exam-manage']">考试管理</a>
+    <a [routerLink]="['./examination-questions-manage']">试题管理</a>
+    <a [routerLink]="['./information-manage']">信息管理</a>
+    <a [routerLink]="['./organization-manage']">组织机构管理</a>
+    <a [routerLink]="['./score-manage']">成绩管理</a>
+    <a [routerLink]="['./user-manage']">用户管理</a>
+</div>
+
+<router-outlet></router-outlet>
